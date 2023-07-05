@@ -1,0 +1,24 @@
+.newsList {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	table {
+		width: 100%;
+
+		th:first-child,
+		td:first-child {
+			width: 20%;
+		}
+
+		th:nth-child(2),
+		td:nth-child(2) {
+			width: 50%;
+		}
+
+		th:nth-child(3),
+		td:nth-child(3) {
+			width: 30%;
+		}
+	}
+}
