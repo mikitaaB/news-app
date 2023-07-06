@@ -13,7 +13,7 @@ export const SearchInput = memo(function SearchInput({
 		() =>
 			debounce((searchQuery: string) => {
 				onSearchHandle(searchQuery);
-			}, 1800),
+			}, 1000),
 		[onSearchHandle]
 	);
 
